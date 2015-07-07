@@ -5,5 +5,7 @@ Version: 1.0.0
 Date: 2015-07-07
 Author: Marc Carlson
 Maintainer: Marc Carlson <mcarlson@fredhutch.org>
+Depends: AnnotationHub, Homo.sapiens, TxDb.Hsapiens.UCSC.hg19.knownGene, 
+         BSgenome.Hsapiens.UCSC.hg19, biomaRt, TxDb.Athaliana.BioMart.plantsmart22
 Description: These are the teaching materials for the 2015 BioC annotations afternoon practical
 License: Artistic 2.0
