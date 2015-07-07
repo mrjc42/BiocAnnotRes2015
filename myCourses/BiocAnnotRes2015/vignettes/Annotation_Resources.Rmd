@@ -72,80 +72,15 @@ of the more important classes of annotation objects that are often accessed
 using packages:
 
 
-<style>
-table, th, td {
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-}
-th {
-    text-align: left;
-    background-color: #D0D0D0;
-}
-</style>
+Object type  |example package name          |contents
+-------------|------------------------------|---------------------------
+OrgDb | org.Hs.eg.db | gene based info. for Homo sapiens
+TxDb | TxDb.Hsapiens.UCSC.hg19.knownGene | transcriptome ranges for Homo sapiens
+OrganismDb | Homo.sapiens | composite information for Homo sapiens
+BSgenome | BSgenome.Hsapiens.UCSC.hg19 | genome sequence for Homo sapiens
 
-<table width="100%">
-  <tr>
-    <th> Object Type </th>
-    <th> Example Package Name </th>
-    <th> Contents </th>
-  </tr>
-  <tbody>
-    <tr>
-      <td> TxDb </td>
-      <td>
-        <a href =
-          "http://bioconductor.org/packages/TxDb.Hsapiens.UCSC.hg19.knownGene/">
-          <div> TxDb.Hsapiens.UCSC.hg19.knownGene </div>
-        </a>
-      </td>
-      <td> Transcriptome ranges for the known gene track of Homo sapiens,
-           e.g., introns, exons, UTR regions. </td>
-    </tr>
-    <tr>
-      <td> OrgDb </td>
-      <td> 
-        <a href = "http://bioconductor.org/packages/org.Hs.eg.db/">
-        <div> org.Hs.eg.db </div>
-        </a>
-      </td>
-      <td> Gene-based information for Homo sapiens; useful for mapping between
-           gene IDs, Names, Symbols, GO and KEGG identifiers, etc. </td>
-    </tr>
-    <tr>
-      <td> BSgenome </td>
-      <td>
-        <a href =
-        "http://bioconductor.org/packages/BSgenome.Hsapiens.UCSC.hg19/">
-        <div> BSgenome.Hsapiens.UCSC.hg19 </div>
-        </a>
-      </td>
-      <td> Full genome sequence for Homo sapiens. </td>
-    </tr>
-    <tr>
-      <td> OrganismDb </td>
-      <td>
-        <a href = "http://bioconductor.org/packages/Homo.sapiens/">
-        <div> Homo.sapiens </div>
-        </a>
-      </td>
-      <td> Collection of multiple annotations for a common organism
-           and genome build. </td> 
-    </tr>
-    <tr>
-      <td> AnnotationHub </td>
-      <td>
-        <a href = "http://bioconductor.org/packages/AnnotationHub/">
-        <div> AnnotationHub </div>
-        </a>
-      </td>
-      <td> Provides a convenient interface to annotations from many 
-           different sources; objects are returned as fully parsed Bioconductor
-           data objects or as the name of a file on disk. </td>
-    </tr>
-  </tbody>
-</table>
+
+
 
 But in spite of the popularity of annotation packages, annotations are
 increasingly also being pulled down from web services like biomaRt[5,6,7] or
