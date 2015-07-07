@@ -1,7 +1,13 @@
 <!--
-%\VignetteEngine{knitr::knitr}
-%\VignetteIndexEntry{Genomic Annotation Resources}
+% \VignetteIndexEntry{Annotation Resources For Bioconductor}
+% \VignetteDepends{AnnotationHub}
+% \VignetteEngine{knitr::knitr}
 -->
+
+```{r style, echo = FALSE, results = 'asis'}
+BiocStyle::markdown()
+```
+
 
 ---
 Authors: Marc RJ Carlson, Herve Pages, Sonali Arora, Valerie Obenchain, 
