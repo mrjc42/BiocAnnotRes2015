@@ -8,12 +8,10 @@
 BiocStyle::markdown()
 ```
 
-# AnnotationHub: How to write recipes for new resources for the AnnotationHub
-
-**Package**: `r Biocpkg("AnnotationHub")`<br />
-**Authors**: `r packageDescription("AnnotationHub")[["Author"]] `<br />
-**Modified**: 11 October, 2014<br />
-**Compiled**: `r date()`
+---
+Authors: Marc RJ Carlson and Sonali Arora
+Key Words: annotation, next-generation sequencing, R, Bioconductor
+---
 
 
 ## Overview of the process

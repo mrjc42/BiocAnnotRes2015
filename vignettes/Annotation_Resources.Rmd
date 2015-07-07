@@ -1,6 +1,9 @@
 <!--
 % \VignetteIndexEntry{Annotation Resources For Bioconductor}
-% \VignetteDepends{AnnotationHub}
+% \VignetteDepends{AnnotationHub, Homo.sapiens,
+                   TxDb.Hsapiens.UCSC.hg19.knownGene, 
+                   BSgenome.Hsapiens.UCSC.hg19, biomaRt,
+                   TxDb.Athaliana.BioMart.plantsmart22}
 % \VignetteEngine{knitr::knitr}
 -->
 
