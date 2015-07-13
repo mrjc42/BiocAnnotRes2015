@@ -8,4 +8,6 @@ Maintainer: Marc Carlson <mcarlson@fredhutch.org>
 Depends: AnnotationHub, Homo.sapiens, TxDb.Hsapiens.UCSC.hg19.knownGene, 
          BSgenome.Hsapiens.UCSC.hg19, biomaRt, TxDb.Athaliana.BioMart.plantsmart22
 Description: These are the teaching materials for the 2015 BioC annotations afternoon practical
+Suggests: BiocStyle, rmarkdown, knitr
+VignetteBuilder: knitr
 License: Artistic 2.0
