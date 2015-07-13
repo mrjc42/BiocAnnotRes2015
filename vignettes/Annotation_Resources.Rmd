@@ -131,7 +131,7 @@ not have been considered annotations even a few years ago.  To get started with
 the AnnotationHub users only need to load the package and then create a local
 AnnotationHub object like this:
 
-```{r, echo=FALSE, results='hide'} 
+```{r, echo=FALSE, results='hide', warning=FALSE} 
 library("AnnotationHub") 
 ah <- AnnotationHub() 
 ```
