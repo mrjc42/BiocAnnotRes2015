@@ -11,6 +11,11 @@
 BiocStyle::markdown()
 ```
 
+```{r, echo=FALSE, results="hide"}
+library(knitr)
+opts_chunk$set(error=FALSE)
+```
+
 
 ---
 Authors: Marc RJ Carlson, Herve Pages, Sonali Arora, Valerie Obenchain, 
