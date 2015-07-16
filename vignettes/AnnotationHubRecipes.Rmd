@@ -1,8 +1,18 @@
-<!--
-% \VignetteIndexEntry{How to write recipes for new resources for the AnnotationHub}
-% \VignetteDepends{AnnotationHub}
-% \VignetteEngine{knitr::knitr}
--->
+---
+title: "AnnotationHub Recipes"
+author: "Marc Carlson, Sonali Arora"
+date: "`r BiocStyle::doc_date()`"
+package: "`r BiocStyle::pkg_ver('BiocAnnotRes2015')`"
+abstract: >
+  AnnotationHub Recipes
+vignette: >
+  %\VignetteIndexEntry{AnnotationHub Recipes}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteEngine{knitr::rmarkdown}
+output: 
+  BiocStyle::html_document:
+    toc: true
+---
 
 ```{r style, echo = FALSE, results = 'asis'}
 BiocStyle::markdown()

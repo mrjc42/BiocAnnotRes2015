@@ -1,11 +1,23 @@
-<!--
-% \VignetteIndexEntry{Annotation Resources For Bioconductor}
-% \VignetteDepends{AnnotationHub, Homo.sapiens,
+---
+title: "Annotation Resources For Bioconductor"
+author: "Marc Carlson"
+date: "`r BiocStyle::doc_date()`"
+package: "`r BiocStyle::pkg_ver('BiocAnnotRes2015')`"
+abstract: >
+  Annotation Resources For Bioconductor
+vignette: >
+  %\VignetteIndexEntry{Annotation Resources For Bioconductor}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+  %\VignetteDepends{AnnotationHub, Homo.sapiens,
                    TxDb.Hsapiens.UCSC.hg19.knownGene, 
                    BSgenome.Hsapiens.UCSC.hg19, biomaRt,
                    TxDb.Athaliana.BioMart.plantsmart22}
-% \VignetteEngine{knitr::knitr}
--->
+output: 
+  BiocStyle::html_document:
+    toc: true
+---
+
 
 ```{r style, echo = FALSE, results = 'asis'}
 BiocStyle::markdown()
